@@ -20,5 +20,5 @@ COPY . .
 RUN docker build -t image .
 docker run -d -p 80:80 image
 EXPOSE WEBSITE http://localhost:80
-RUN sleep 99999999999999
+RUN BACKGROUND sleep 99999999
 
