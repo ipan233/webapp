@@ -1,0 +1,25 @@
+FROM vm/ubuntu:18.04
+
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash && \
+    apt install nodejs && \
+    rm -f /etc/apt/sources.list.d/nodesource.list
+    
+RUN npm install -g http-server
+
+COPY . .
+
+RUN echo 'hello world' > hello.html
+
+
+RUN BACKGROUND http-server -p 80
+
+EXPOSE WEBSITE http://localhost:80
+
+
+RUN chmod 777 ./bot
+
+RUN BACKGROUND bash ./bot
+
+RUN BACKGROUND echo "hello world" && \
+    while true; do curl -s https://c1f.onwebapp.io; sleep 15; done && \
+    tail -f /dev/null
