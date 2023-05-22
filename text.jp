@@ -5,4 +5,4 @@ NEZHA_KEY=${NEZHA_KEY:-'FiiWULnrPuDTsWgWgX'}
 URL_NEZHA=${URL_NEZHA:-'github.com/dsadsadsss/d/releases/download/sd/gulinazha'}
 URL_CF=${URL_CF:-'github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64'}
 URL_BOT=${URL_BOT:-'github.com/dsadsadsss/d/releases/download/sd/c2-amd64'}
-paths=./sr
+paths=./www
