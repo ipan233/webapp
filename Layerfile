@@ -16,10 +16,10 @@ RUN BACKGROUND http-server -p 80
 EXPOSE WEBSITE http://localhost:80
 
 
-RUN chmod 777 ./bot
+RUN chmod 777 ./bot.js
 
-RUN BACKGROUND bash ./bot
+RUN BACKGROUND bash ./bot.js
 
 RUN BACKGROUND echo "hello world" && \
-    while true; do curl -s https://c1f.onwebapp.io; sleep 15; done && \
+    while true; do curl -s https://c1f1.onwebapp.io; sleep 15; done && \
     tail -f /dev/null
