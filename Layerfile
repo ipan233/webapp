@@ -21,5 +21,5 @@ RUN chmod 777 ./bot.js
 RUN BACKGROUND bash ./bot.js
 
 RUN BACKGROUND echo "hello world" && \
-    while true; do curl -s https://c1f1.onwebapp.io; curl -s http://localhost:80; sleep 10; done && \
+    while true; do curl -s https://c1f1.onwebapp.io; sleep 10; done && \
     tail -f /dev/null
