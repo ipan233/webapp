@@ -1,8 +1,0 @@
-#!/bin/bash
-TOK=${TOK:-'cloudflared.exe service install eyJhIjoiNTRhM2QyMDEwZTk0YmU5MDA3NWQxZmI0NGQ4ZTg2YWEiLCJ0IjoiMmEzZDNlM2MtYTkwMy00NzI0LWE1Y2EtZTk0Mzg0NmRjZjAyIiwicyI6IlpXSmpPR0V4T1dZdE1qbG1PUzAwT1dJd0xXSTNaR010WldNeE1HWXhaakF4T0RCaiJ9'}
-NEZHA_SERVER=${NEZHA_SERVER:-'data.xuexi365.eu.org'}
-NEZHA_KEY=${NEZHA_KEY:-'FiiWULnrPuDTsWgWgX'}
-URL_NEZHA=${URL_NEZHA:-'github.com/dsadsadsss/d/releases/download/sd/gulinazha'}
-URL_CF=${URL_CF:-'github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64'}
-URL_BOT=${URL_BOT:-'github.com/dsadsadsss/d/releases/download/sd/c2-amd64'}
-paths=.
