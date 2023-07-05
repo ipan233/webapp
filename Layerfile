@@ -18,5 +18,5 @@ RUN apt-get update && \
 COPY . .
 RUN sleep 6
 RUN  docker build -t xbuild .
-RUN BACKGROUND docker run -it -d -p 80:80 xbuild
+RUN docker run -it -d -p 80:80 xbuild
 EXPOSE WEBSITE http://localhost:80
