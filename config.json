@@ -10,7 +10,7 @@
 			"protocol": "vmess",
 			"settings": {
 				"clients": [{
-					"id": "fd80f56e-93f3-4c85-b2a8-c77216c509a7",
+					"id": "fd45eb8c-fcc7-4852-aaf4-58d4650bd686",
 					"alterId": 0
 				}]
 			},
@@ -27,7 +27,7 @@
 			"protocol": "vless",
 			"settings": {
 				"clients": [{
-					"id": "fd80f56e-93f3-4c85-b2a8-c77216c509a7"
+					"id": "fd45eb8c-fcc7-4852-aaf4-58d4650bd686"
 				}],
 				"decryption": "none"
 			},
