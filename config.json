@@ -17,7 +17,7 @@
 			"streamSettings": {
 				"network": "ws",
 				"wsSettings": {
-					"path": "/vms"
+					"path": "/s300"
 				}
 			}
 		},
@@ -34,7 +34,7 @@
 			"streamSettings": {
 				"network": "ws",
 				"wsSettings": {
-					"path": "/vls"
+					"path": "/s200"
 				}
 			}
 		}
